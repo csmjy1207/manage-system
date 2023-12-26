@@ -1,0 +1,28 @@
+/* 公共头部样式 */
+.header {
+    line-height: 50px;
+    color: #fff;
+    display: flex;
+}
+/* 公共头部字体 */
+.warp_title {
+    background: linear-gradient(135deg, #c850c0, #4158d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 1.5rem;
+}
+.warp_title::before {
+    content: '⭐';
+}
+
+.title {
+    font-weight: bold;
+    color: #c850c0;
+}
+/* 公共背景颜色 */
+.bg {
+    background: #1b1c30;
+}
+
+/* 局部公共样式定义 */
